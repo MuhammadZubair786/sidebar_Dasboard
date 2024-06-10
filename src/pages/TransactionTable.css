@@ -1,0 +1,40 @@
+.transaction-table-container {
+    /* padding: 20px; */
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.status-verified {
+    color: green;
+}
+
+.status-pending {
+    color: gray;
+}
+
+.status-rejected {
+    color: red;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -10px;
+    background-color: white;
+    /* width: 1200px; */
+}
+
+.pagination-container button {
+    margin: 0 5px;
+    color: rgb(0, 2, 7);
+}
+
+
+.export-button {
+    display: block;
+    margin: 20px auto;
+}

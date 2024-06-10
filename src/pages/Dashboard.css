@@ -1,0 +1,77 @@
+.balance-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.balance-text {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.balance-icon {
+    margin-left: 10px; /* Adjust as needed */
+    text-align: right;
+}
+.select-with-icon select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('https://cdn-icons-png.freepik.com/256/32/32195.png?ga=GA1.1.1506573534.1703183738&semt=ais_hybrid') no-repeat right 10px center;
+    background-size: 12px;
+    padding-right: 30px;
+}
+.select-with-icon select:focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+}
+.chart-container {
+    width: 100%;
+    height: 300px;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .money-tracker {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .money-item {
+    text-align: center;
+  }
+  
+  .label {
+    font-size: 14px;
+    color: #6b6b6b;
+    margin-bottom: 4px;
+  }
+  
+  .value {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .bar {
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+  }
+  
+  .bar-in {
+    background-color: #007bff;
+  }
+  
+  .bar-out {
+    background-color: #ff8c00;
+  }
+    
