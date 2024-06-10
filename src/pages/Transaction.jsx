@@ -337,23 +337,41 @@ const TransactionTable = () => {
           />
         </Col>
       </Row>
+      <Row>
+        <Col>
+        <h4>Transaction history</h4>
+        </Col>
+      </Row>
 
-      <div className="transaction-table-container">
-        <InputGroup className="mb-3">
+
+      <div className="transaction-table-container p-4" style={{backgroundColor:"white"}}>
+        <Row>
+          <Col lg={2}>
           <FormControl
             placeholder="Start Date"
             aria-label="Start Date"
             type="date"
           />
+
+          </Col>
+          <Col lg={2}>
           <FormControl
-            placeholder="End Date"
-            aria-label="End Date"
+            placeholder="Start Date"
+            aria-label="Start Date"
             type="date"
           />
+
+
+          </Col>
+          <Col lg={2}>
+          </Col>
+          <Col  lg={4}>
           <FormControl
             placeholder="Search transactions"
             aria-label="Search transactions"
           />
+          </Col>
+          <Col lg={2}>
           <Button
             style={{
               backgroundColor: "white",
@@ -365,6 +383,18 @@ const TransactionTable = () => {
           >
             Filter
           </Button>
+          
+          </Col>
+        </Row>
+        <InputGroup className="mb-3">
+          
+          {/* <FormControl
+            placeholder="End Date"
+            aria-label="End Date"
+            type="date"
+          /> */}
+         
+         
         </InputGroup>
         <Table striped bordered hover responsive>
           <thead>

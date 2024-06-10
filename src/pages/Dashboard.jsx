@@ -18,7 +18,7 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 import { AiOutlineDollar } from "react-icons/ai";
 import { BsFillSendArrowUpFill } from "react-icons/bs";
 import { BsFillSendArrowDownFill } from "react-icons/bs";
-import Banner from "../assets/images/main.PNG";
+import Banner from "../assets/images/siderbar.png";
 import { CiMenuKebab } from "react-icons/ci";
 import "./Dashboard.css"
 import {
@@ -235,6 +235,7 @@ const data = [
                   backgroundColor: "white",
                   color: "grey",
                   borderColor: "white",
+                  height:"100px"
                 }}
                 className="w-100 py-2"
               >
@@ -242,13 +243,13 @@ const data = [
                   size={40}
                   style={{
                     backgroundColor: "#D7E0EA",
-                    padding: "10px",
+                  
                     borderRadius: "50%",
                     borderColor: "white",
                   }}
                 />
                 <div>
-                  Bulk <br /> Upload
+                  Bulk Upload
                 </div>
               </Button>
             </Col>
@@ -259,6 +260,7 @@ const data = [
                   backgroundColor: "white",
                   color: "grey",
                   borderColor: "white",
+                    height:"100px"
                 }}
                 className="w-100 py-2"
               >
@@ -266,9 +268,10 @@ const data = [
                   size={40}
                   style={{
                     backgroundColor: "#D7E0EA",
-                    padding: "10px",
+                    // padding: "10px",
                     borderRadius: "50%",
                     borderColor: "white",
+                    
                   }}
                 />
                 <div>Request Payment</div>
@@ -281,6 +284,7 @@ const data = [
                   backgroundColor: "white",
                   color: "grey",
                   borderColor: "white",
+                    height:"100px"
                 }}
                 className="w-100 py-2"
               >
@@ -288,23 +292,27 @@ const data = [
                   size={40}
                   style={{
                     backgroundColor: "#D7E0EA",
-                    padding: "10px",
+                    // padding: "10px",
                     borderRadius: "50%",
                     borderColor: "white",
                   }}
                 />
                 <div>
-                  Send <br /> Money
+                  Send Money
                 </div>
               </Button>
             </Col>
           </Row>
-          <Row
+          <Row className="rounded"
             style={{
               backgroundColor: "white",
               border: "2px solid white",
-              borderRadius: "5%",
-              margin: "2%",
+              borderRadius: "0%",
+              width:"99%",
+             marginLeft:"2px",
+             marginBottom:"30px",
+             
+
             }}
           >
             <Col lg={7}>
@@ -316,11 +324,11 @@ const data = [
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={3} style={{ textAlign: "center" }}>
+            <Col lg={5} style={{ textAlign: "center",display:"flex",justifyContent:"center",alignItems:"center" }}>
               <img
                 src={Banner}
                 alt=""
-                style={{ height: "200px", width: "180px" }}
+                style={{ height: "80%", width: "100%" }}
               />
             </Col>
           </Row>
