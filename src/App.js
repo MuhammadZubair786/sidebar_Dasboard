@@ -9,6 +9,7 @@ import Comment from './pages/Comment.jsx';
 import Product from './pages/Product.jsx';
 import ProductList from './pages/ProductList.jsx';
 import TransactionTable from './pages/Transaction.jsx';
+import PaymentScreen from './pages/PaymentScreen.jsx';
 
 const App = () => {
   return (
@@ -17,11 +18,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/transaction" element={<TransactionTable />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/comment" element={<Comment />} />
-          <Route path="/analytics" element={<Analytics />} />
-          <Route path="/product" element={<Product />} />
-          <Route path="/productList" element={<ProductList />} />
+          <Route path="/payments" element={<PaymentScreen />} />
+         
         </Routes>
       </Sidebar>
     </BrowserRouter>
