@@ -59,7 +59,7 @@ const Sidebar = ({ children }) => {
         <div className="container-main">
             <div style={{ width: isOpen ? "270px" : "50px" }} className="sidebar">
             <div style={{ marginLeft:  "10px",marginTop:"20px" }} className="bars">
-                        <FaBars onClick={toggle} />
+                        <FaBars onClick={()=>{}} />
                     </div>
                 <div className="top_section">
                     <h1 style={{ display: isOpen ? "block" : "none",textAlign:"center" }} className="logo">
