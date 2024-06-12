@@ -10,6 +10,7 @@ import Product from './pages/Product.jsx';
 import ProductList from './pages/ProductList.jsx';
 import TransactionTable from './pages/Transaction.jsx';
 import PaymentScreen from './pages/PaymentScreen.jsx';
+import UploadPage from './pages/upload.jsx';
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
           <Route path="/" element={<Dashboard />} />
           <Route path="/transaction" element={<TransactionTable />} />
           <Route path="/payments" element={<PaymentScreen />} />
+          <Route path="/upload" element={<UploadPage />} />
+
          
         </Routes>
       </Sidebar>

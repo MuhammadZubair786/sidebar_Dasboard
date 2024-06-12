@@ -1,0 +1,77 @@
+.file-table-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.filter-row {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-date-input {
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.filter-button {
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    color: grey;
+}
+
+.file-table {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.file-table thead th {
+    border-bottom: 2px solid #dee2e6;
+}
+
+.file-table tbody tr {
+    border-top: 1px solid #dee2e6;
+}
+
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.status-success {
+    color: green;
+}
+
+.status-error {
+    color: red;
+}
+
+.action-button {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    color: grey;
+}
+
+.pagination-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.page-button {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+.tap:hover{
+    cursor: pointer;
+}

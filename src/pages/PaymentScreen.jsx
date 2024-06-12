@@ -26,7 +26,7 @@ function PaymentScreen() {
 
           <>
             <Row style={{ marginLeft: "1%" }}>
-          <Col lg={3}>
+          <Col lg={4}>
             <b>Send Money</b>
             <b style={{ marginLeft: "20px" }}>Request Money</b>
           </Col>
